@@ -153,4 +153,13 @@ img {
   .col:last-child {
     margin-top: 80px;
   }
+  .steps .col {
+    width: 100%;
+  }
+  .why-us .col-left {
+    width: 100%;
+  }
+  .why-us .col-right {
+    width: 100%;
+  }
 }

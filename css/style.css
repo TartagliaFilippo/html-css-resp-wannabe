@@ -146,12 +146,11 @@ img {
   .row {
     flex-direction: column;
     align-items: center;
+    gap: 80px;
   }
   .lessons .col {
     width: 100%;
-  }
-  .col:last-child {
-    margin-top: 80px;
+    margin-bottom: 40px;
   }
   .steps .col {
     width: 100%;
@@ -161,5 +160,15 @@ img {
   }
   .why-us .col-right {
     width: 100%;
+  }
+  .why-us {
+    background-color: black;
+    padding-top: 40px;
+  }
+  section:last-child {
+    margin: 0;
+  }
+  .steps {
+    margin: 0;
   }
 }

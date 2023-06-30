@@ -133,3 +133,24 @@ img {
     width: 100vw;
   }
 }
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100vw;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .lessons .col {
+    width: 100%;
+  }
+  .col:last-child {
+    margin-top: 80px;
+  }
+}
